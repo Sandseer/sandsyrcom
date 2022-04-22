@@ -1,8 +1,8 @@
-#helloworld:hover {
+.helloworld:hover {
     color: tomato;
 }
 
-// The following code is from daddy w3
+/* The following code is based heavily off of code from daddy w3 */
 
 /* Add a black background color to the top navigation */
 .topnav {
