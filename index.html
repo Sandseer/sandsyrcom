@@ -1,6 +1,5 @@
 <DOCTYPE! html>
-<html>
-  <head>
+ <head>
     <title> SandSyR's Very Own Website! </title>
     <link rel="stylesheet" href="sandsyr.css" />
     <script src="sandsyr.js"></script>
@@ -51,13 +50,11 @@
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
+        width: 50%,
+        height: 25%,
         muted: true,
         channel: "udsandsyr",
       });
-      
-      var api_ready = false;
       
       embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
         console.log("debug this");
