@@ -42,5 +42,27 @@
     <!-- w3schools code end -->
     <h1 class="helloworld"> Hello World! </h1>
     <iframe src="https://player.twitch.tv/?channel=udsandsyr&parent=www.sandsyr.com" frameborder="0" allowfullscreen="true" scrolling="no" autoplay="true" muted="true" height="378" width="620"></iframe>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "udsandsyr",
+      });
+      
+      var embed = new Twitch.Embed('twitch-embed', {
+        channel: 'udsandsyr'
+      });
+
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
+        console.log('The video is ready');
+      });
+    </script>
   </body>
 </html>
