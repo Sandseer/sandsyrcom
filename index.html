@@ -53,16 +53,20 @@
       new Twitch.Embed("twitch-embed", {
         width: 854,
         height: 480,
+        muted: true,
         channel: "udsandsyr",
       });
       
-      var embed = new Twitch.Embed('twitch-embed', {
-        channel: 'udsandsyr'
-      });
-
+      var api_ready = false;
+      
       embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
-        console.log('The video is ready');
+        if(Twitch.Player.OFFLINE == true) {
+          Twitch.Embed.visibility = "hidden";
+        } else {
+          Twitch.Embed.visibility = "visible";
+        }
       });
+      
     </script>
   </body>
 </html>
