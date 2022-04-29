@@ -58,7 +58,7 @@
       embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
         console.log("debug this");
         if(Twitch.Player.OFFLINE = true) {
-          Twitch.Embed.style.display = "none";
+          Twitch.Embed.style.display = "block";
           console.log("we are offline.");
         } else {
           Twitch.Embed.style.display = "block";
