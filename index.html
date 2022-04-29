@@ -61,9 +61,9 @@
       
       embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
         if(Twitch.Player.OFFLINE == true) {
-          Twitch.Embed.style.visibility = "hidden";
+          Twitch.Embed.style.display = "none";
         } else {
-          Twitch.Embed.style.visibility = "visible";
+          Twitch.Embed.style.display = "block";
         }
       });
       
