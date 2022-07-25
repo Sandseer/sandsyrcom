@@ -64,14 +64,16 @@
 
 th, td {
   border: 1px solid black;
-  border-radius: 10px;
-  border-style: outset;
 }
 
 // w3schools code end
 
 .twitch-embed {
     margin: auto;
+}
+
+th {
+    border-style: outset;
 }
 
 .borderClicky {
