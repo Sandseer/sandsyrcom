@@ -15,7 +15,7 @@ function myFunction() {
 // w3schools code end
 
 const classist = document.getElementsByClassName("tableThingy");
-classist.forEach();
+
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
   classist.forEach(classList.add("borderHid"));
