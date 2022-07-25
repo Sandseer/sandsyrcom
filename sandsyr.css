@@ -79,3 +79,19 @@ th {
 .borderClicky {
     border-style: inset;
 }
+
+.twitchHid {
+    visibility: hidden;
+}
+
+.youtubeHid {
+    visibility: hidden;
+}
+
+.discordHid {
+    visibility: hidden;
+}
+
+.tiktokHid {
+    visibility: hidden;
+}
