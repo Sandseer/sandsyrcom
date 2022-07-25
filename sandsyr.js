@@ -17,29 +17,29 @@ function myFunction() {
 const classist = document.getElementsByClassName("tableThingy");
 
 function hideYoIdentity() {
-  classList.add("borderHid");
+  element.classList.add("borderHid");
 }
 
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
-  classist.forEach(hideYoIdentity);
+  classist.forEach(hideYoIdentity());
   twitch.classList.remove("borderHid");
 }
 
 function borderYoutube() {
   var youtube = document.getElementById("youtube");
-  classist.forEach(hideYoIdentity);
+  classist.forEach(hideYoIdentity());
   youtube.classList.remove("borderHid");
 }
 
 function borderDiscord() {
   var discord = document.getElementById("discord");
-  classist.forEach(hideYoIdentity);
+  classist.forEach(hideYoIdentity());
   discord.classList.remove("borderHid");
 }
 
 function borderTiktok() {
   var tiktok = document.getElementById("tiktok");
-  classist.forEach(hideYoIdentity);
+  classist.forEach(hideYoIdentity());
   tiktok.classList.remove("borderHid");
 }
