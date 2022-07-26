@@ -15,7 +15,7 @@ function myFunction() {
 // w3schools code end
 
 const classist = document.getElementsByClassName("tableThingy");
-const classer = classist.classList;
+const classer = document.classList;
 
 function hideYoIdentity() {
   classer.add("borderHid");
