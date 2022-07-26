@@ -15,10 +15,10 @@ function myFunction() {
 // w3schools code end
 
 const classist = document.getElementsByClassName("tableThingy");
-const list = element.classList;
+const classer = classist.classList;
 
 function hideYoIdentity() {
-  list.add("borderHid");
+  classer.add("borderHid");
 }
 
 function borderTwitch() {
