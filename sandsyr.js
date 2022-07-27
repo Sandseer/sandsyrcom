@@ -17,7 +17,7 @@ function myFunction() {
 const classist = document.getElementsByClassName("tableThingy");
 
 function hideYoIdentity() {
-  document.classList.add("borderHid");
+  .classList.add("borderHid");
 }
 
 function borderTwitch() {
