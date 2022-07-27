@@ -14,7 +14,7 @@ function myFunction() {
 
 // w3schools code end
 
-const classist = document.getElementsByClassName("tableThingy");
+var classist = document.getElementsByClassName("tableThingy");
 
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
