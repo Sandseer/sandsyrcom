@@ -16,30 +16,26 @@ function myFunction() {
 
 const classist = document.getElementsByClassName("tableThingy");
 
-function hideYoIdentity() {
-  classList.add("borderHid");
-}
-
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
-  classist.forEach(hideYoIdentity());
+  classist.classList.add("borderHid");
   twitch.classList.remove("borderHid");
 }
 
 function borderYoutube() {
   var youtube = document.getElementById("youtube");
-  classist.forEach(hideYoIdentity());
+  classist.classList.add("borderHid");
   youtube.classList.remove("borderHid");
 }
 
 function borderDiscord() {
   var discord = document.getElementById("discord");
-  classist.forEach(hideYoIdentity());
+  classist.classList.add("borderHid");
   discord.classList.remove("borderHid");
 }
 
 function borderTiktok() {
   var tiktok = document.getElementById("tiktok");
-  classist.forEach(hideYoIdentity());
+  classist.classList.add("borderHid");
   tiktok.classList.remove("borderHid");
 }
