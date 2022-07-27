@@ -18,32 +18,48 @@ const classist = document.getElementsByClassName("tableThingy");
 
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
-  for (let i = 0; i < classist.length; i++) {
-    classist[i].classList.add("borderHid");
+  if (twitch.classList.contains("borderHid") {
+    for (let i = 0; i < classist.length; i++) {
+      classist[i].classList.add("borderHid");
+    }
+    twitch.classList.remove("borderHid");
+  } else {
+    twitch.classList.add("borderHid");
   }
-  twitch.classList.remove("borderHid");
 }
 
 function borderYoutube() {
   var youtube = document.getElementById("youtube");
-  for (let i = 0; i < classist.length; i++) {
-    classist[i].classList.add("borderHid");
+  if (youtube.classList.contains("borderHid") {
+    for (let i = 0; i < classist.length; i++) {
+      classist[i].classList.add("borderHid");
+    }
+    youtube.classList.remove("borderHid");
+  } else {
+    youtube.classList.add("borderHid");
   }
-  youtube.classList.remove("borderHid");
 }
 
 function borderDiscord() {
   var discord = document.getElementById("discord");
-  for (let i = 0; i < classist.length; i++) {
-    classist[i].classList.add("borderHid");
+  if (discord.classList.contains("borderHid") {
+    for (let i = 0; i < classist.length; i++) {
+      classist[i].classList.add("borderHid");
+    }
+    discord.classList.remove("borderHid");
+  } else {
+    discord.classList.add("borderHid");
   }
-  discord.classList.remove("borderHid");
 }
 
 function borderTiktok() {
   var tiktok = document.getElementById("tiktok");
-  for (let i = 0; i < classist.length; i++) {
-    classist[i].classList.add("borderHid");
+  if (tiktok.classList.contains("borderHid") {
+    for (let i = 0; i < classist.length; i++) {
+      classist[i].classList.add("borderHid");
+    }
+    tiktok.classList.remove("borderHid");
+  } else {
+    tiktok.classList.add("borderHid");
   }
-  tiktok.classList.remove("borderHid");
 }
