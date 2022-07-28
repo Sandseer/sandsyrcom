@@ -18,7 +18,7 @@ const classist = document.getElementsByClassName("tableThingy");
 
 function borderTwitch() {
   var twitch = document.getElementById("twitch");
-  if (twitch.classList.contains("borderHid") {
+  if (twitch.classList.contains("borderHid")) {
     for (let i = 0; i < classist.length; i++) {
       classist[i].classList.add("borderHid");
     }
@@ -30,7 +30,7 @@ function borderTwitch() {
 
 function borderYoutube() {
   var youtube = document.getElementById("youtube");
-  if (youtube.classList.contains("borderHid") {
+  if (youtube.classList.contains("borderHid")) {
     for (let i = 0; i < classist.length; i++) {
       classist[i].classList.add("borderHid");
     }
@@ -42,7 +42,7 @@ function borderYoutube() {
 
 function borderDiscord() {
   var discord = document.getElementById("discord");
-  if (discord.classList.contains("borderHid") {
+  if (discord.classList.contains("borderHid")) {
     for (let i = 0; i < classist.length; i++) {
       classist[i].classList.add("borderHid");
     }
@@ -54,7 +54,7 @@ function borderDiscord() {
 
 function borderTiktok() {
   var tiktok = document.getElementById("tiktok");
-  if (tiktok.classList.contains("borderHid") {
+  if (tiktok.classList.contains("borderHid")) {
     for (let i = 0; i < classist.length; i++) {
       classist[i].classList.add("borderHid");
     }
