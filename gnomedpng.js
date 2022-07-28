@@ -1,5 +1,5 @@
 ---
-permalink: /gnomed.png
+permalink: /gnomedpng
 ---
   
  const gnomed = new Image(50%, 50%);
