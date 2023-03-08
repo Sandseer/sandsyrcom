@@ -82,17 +82,17 @@ th {
 }
 
 #twitch {
-    display: none;
+    visibility: hidden;
 }
 
 #youtube {
-    display: none;
+    visibility: hidden;
 }
 
 #discord {
-    display: none;
+    visibility: hidden;
 }
 
 #tiktok {
-    display: none;
+    visibility: hidden;
 }
