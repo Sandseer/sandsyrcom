@@ -14,52 +14,24 @@ function myFunction() {
 
 // w3schools code end
 
-const classist = document.getElementsByClassName("tableThingy");
+function borderSwitcher(socialsID) {
+  var socialStyle = document.getElementById(socialsID).style;
+  if (socialStyle.display == '')) {
+    socialStyle.display = 'block';
+  } else {
+    socialStyle.display = '';
+  }
 
-function borderTwitch() {
-  var twitch = document.getElementById("twitch");
-  if (twitch.classList.contains("borderHid")) {
+  /* Trying to see if above code works instead. thanks function parameters!
+function borderSwitcher(socialsID) {
+  var social = document.getElementById(socialsID);
+  if (social.classList.contains("borderHid")) {
     for (let i = 0; i < classist.length; i++) {
       classist[i].classList.add("borderHid");
     }
-    twitch.classList.remove("borderHid");
+    social.classList.remove("borderHid");
   } else {
-    twitch.classList.add("borderHid");
+    social.classList.add("borderHid");
   }
-}
-
-function borderYoutube() {
-  var youtube = document.getElementById("youtube");
-  if (youtube.classList.contains("borderHid")) {
-    for (let i = 0; i < classist.length; i++) {
-      classist[i].classList.add("borderHid");
-    }
-    youtube.classList.remove("borderHid");
-  } else {
-    youtube.classList.add("borderHid");
-  }
-}
-
-function borderDiscord() {
-  var discord = document.getElementById("discord");
-  if (discord.classList.contains("borderHid")) {
-    for (let i = 0; i < classist.length; i++) {
-      classist[i].classList.add("borderHid");
-    }
-    discord.classList.remove("borderHid");
-  } else {
-    discord.classList.add("borderHid");
-  }
-}
-
-function borderTiktok() {
-  var tiktok = document.getElementById("tiktok");
-  if (tiktok.classList.contains("borderHid")) {
-    for (let i = 0; i < classist.length; i++) {
-      classist[i].classList.add("borderHid");
-    }
-    tiktok.classList.remove("borderHid");
-  } else {
-    tiktok.classList.add("borderHid");
-  }
+  */
 }
