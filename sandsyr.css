@@ -1,5 +1,6 @@
 .helloworld:hover {
     color: tomato;
+    font-size: 30px;
 }
 
 /* The following code is based heavily off of code from daddy w3 */
