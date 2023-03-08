@@ -16,6 +16,7 @@ function myFunction() {
 
 function borderSwitcher(socialsID) {
   var socialStyle = document.getElementById(socialsID).style;
+  alert(socialStyle.visibility);
   if (socialStyle.visibility == 'hidden') {
     socialStyle.visibility = 'visible';
   } else {
