@@ -81,6 +81,18 @@ th {
     border-style: inset;
 }
 
-.borderHid {
-    visibility: hidden;
+#twitch {
+    display: none;
+}
+
+#youtube {
+    display: none;
+}
+
+#discord {
+    display: none;
+}
+
+#tiktok {
+    display: none;
 }
