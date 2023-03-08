@@ -16,7 +16,7 @@ function myFunction() {
 
 function borderSwitcher(socialsID) {
   var socialStyle = document.getElementById(socialsID).style;
-  if (socialStyle.display == '')) {
+  if (socialStyle.display == '') {
     socialStyle.display = 'block';
   } else {
     socialStyle.display = '';
