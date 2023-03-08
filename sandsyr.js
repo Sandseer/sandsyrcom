@@ -16,11 +16,10 @@ function myFunction() {
 
 function borderSwitcher(socialsID) {
   var socialStyle = document.getElementById(socialsID).style;
-  alert(socialStyle.visibility);
-  if (socialStyle.visibility == 'hidden') {
+  if (socialStyle.visibility == '') {
     socialStyle.visibility = 'visible';
   } else {
-    socialStyle.visibility = 'hidden';
+    socialStyle.visibility = '';
   }
 
   /* Trying to see if above code works instead. thanks function parameters!
