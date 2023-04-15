@@ -15,12 +15,15 @@ function myFunction() {
 // w3schools code end
 
 function borderSwitcher(socialsID) {
-  var socialStyle = document.getElementById(socialsID).style;
-  if (socialStyle.visibility == '') {
-    socialStyle.visibility = 'visible';
-  } else {
-    socialStyle.visibility = '';
-  }
+    var socialStyle = document.getElementById(socialsID).style;
+    var socialButton = document.getElementById(socialButton);
+    socialButton.visibility == '';
+    if (socialStyle.visibility == '') {
+        socialStyle.visibility = 'visible';
+    } else {
+        socialStyle.visibility = '';
+    }
+}
 
   /* Trying to see if above code works instead. thanks function parameters!
 function borderSwitcher(socialsID) {
@@ -33,4 +36,5 @@ function borderSwitcher(socialsID) {
   } else {
     social.classList.add("borderHid");
   }
-}
+  }
+  */
