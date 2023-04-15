@@ -33,5 +33,4 @@ function borderSwitcher(socialsID) {
   } else {
     social.classList.add("borderHid");
   }
-  */
 }
