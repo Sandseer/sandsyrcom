@@ -17,8 +17,8 @@ function myFunction() {
 function borderSwitcher(socialsID) {
     var socialStyle = document.getElementById(socialsID).style;
     var socialButton = document.getElementById(socialButton);
-    socialButton.visibility == '';
     if (socialStyle.visibility == '') {
+        socialButton.visibility = '';
         socialStyle.visibility = 'visible';
     } else {
         socialStyle.visibility = '';
