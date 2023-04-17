@@ -16,7 +16,7 @@ function myFunction() {
 
 function borderSwitcher(socialsID) {
     var socialStyle = document.getElementById(socialsID).style;
-    var socialButton = document.getElementById("socialButton");
+    var socialButton = document.getElementById("socialButton").style;
     if (socialStyle.display == "none") {
         socialButton.display = "none";
         socialStyle.display = 'inline-block';
