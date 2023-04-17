@@ -17,11 +17,11 @@ function myFunction() {
 function borderSwitcher(socialsID) {
     var socialStyle = document.getElementById(socialsID).style;
     var socialButton = document.getElementById(socialButton);
-    if (socialStyle.visibility == '') {
-        socialButton.visibility = '';
-        socialStyle.visibility = 'visible';
+    if (socialStyle.display == "none") {
+        socialButton.display = "none";
+        socialStyle.display = 'inline-block';
     } else {
-        socialStyle.visibility = '';
+        socialStyle.display = 'none';
     }
 }
 
