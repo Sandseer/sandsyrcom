@@ -14,14 +14,11 @@ function myFunction() {
 
 // w3schools code end
 
-function borderSwitcher(socialsID) {
-    var socialStyle = document.getElementById(socialsID).style;
-    var socialButton = document.getElementById("socialButton").style;
-    if (socialStyle.display == "none") {
-        socialButton.display = "none";
-        socialStyle.display = 'inline-block';
+function borderSwitcher(socialID) {
+    if (socialID.style.display == "") {
+        socialID.style.display = "inline-block";
     } else {
-        socialStyle.display = 'none';
+        socialID.style.display = "";
     }
 }
 
