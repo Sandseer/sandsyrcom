@@ -16,22 +16,12 @@ function myFunction() {
 
 function borderSwitcher(socialID) {
     if (socialID.style.display == "") {
+        var socialElements = document.getElementsByClassName("socialButton");
+        for (var i = 0; i < socialElements.length; i++) {
+            socialElements[i].style.display = "";
+        }
         socialID.style.display = "inline-block";
     } else {
         socialID.style.display = "";
     }
 }
-
-  /* Trying to see if above code works instead. thanks function parameters!
-function borderSwitcher(socialsID) {
-  var social = document.getElementById(socialsID);
-  if (social.classList.contains("borderHid")) {
-    for (let i = 0; i < classist.length; i++) {
-      classist[i].classList.add("borderHid");
-    }
-    social.classList.remove("borderHid");
-  } else {
-    social.classList.add("borderHid");
-  }
-  }
-  */
