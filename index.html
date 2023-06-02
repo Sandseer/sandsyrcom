@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
- <head>
+<html prefix="og: http://ogp.me/ns#">
+<head>
     <title> SandSyR's Very Own Website! </title>
+    <meta property="og:title" content="SandSyR dot com(pany)" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://www.sandsyr.com/" />
+    <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
     <link rel="stylesheet" href="sandsyr.css" />
     <script src="sandsyr.js"></script>
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
@@ -17,7 +21,7 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
+    <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
@@ -25,15 +29,15 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+</head>
   <body>
     <!-- The following code is heavily based off of code from w3schools because I definitly don't have this coding prowess -->
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <div class="topnav" id="myTopnav">
       <a href="/home" class="active"> Home </a>
       <a href="/djeii"> D-Jeii </a>
+      <a href="/blog"> Blog </a>
       <a href="/contact"> Contact </a>
       <a href="/about"> About </a>
       <a href="/links"> Links </a>
@@ -46,15 +50,15 @@
     <table>
         <tr>
             <th onclick="borderSwitcher(twitch)"><button type="button" id="twitchButton">Twitch</button></th>
-            <td id="twitch"><a href="https://www.twitch.tv/UdSandSyR" target="_blank">Twitch</a></td>
+            <td id="twitch" class="socialTable"><a href="https://www.twitch.tv/UdSandSyR" target="_blank" class="socialButton">Twitch</a></td>
         </tr>
         <tr>
             <th onclick="borderSwitcher(youtube)"><button type="button" id="youtubeButton">YouTube</button></th>
-            <td id="youtube"> <a href="https://www.youtube.com/channel/UCZfvO4OQwscrXgGsJRSsbKQ" target="_blank">YouTube</a> </td>
+            <td id="youtube" class="socialTable"> <a href="https://www.youtube.com/channel/UCZfvO4OQwscrXgGsJRSsbKQ" target="_blank" class="socialButton">YouTube</a> </td>
         </tr>
         <tr>
             <th onclick="borderSwitcher(discord)"><button type="button" id="discordButton">Discord</button></th>
-            <td id="discord"> <a href="https://discord.gg/nJ9SDDr" target="_blank">Discord</a> </td>
+            <td id="discord" class="socialTable"> <a href="https://discord.gg/nJ9SDDr" target="_blank" class="socialButton">Discord</a> </td>
         </tr>
     </table>
   </body>
