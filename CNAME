@@ -1,5 +1,1 @@
 www.sandsyr.com
-
-if (window.location.href==="https://roll.sandsyr.com") {
-    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; 
-}
