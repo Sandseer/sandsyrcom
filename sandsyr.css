@@ -171,3 +171,9 @@ td {
 #discord {
     display: none;
 }
+
+.darklight {
+    width: 5%;
+    height: 5%;
+    text-align: right;
+}
